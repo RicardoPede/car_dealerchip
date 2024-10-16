@@ -8,10 +8,10 @@ import mongoose from 'mongoose';
 import { Pool } from 'pg';
 
 export const pool = new Pool({
-    user: 'your_db_user',
+    user: 'db_user',
     host: 'localhost',
-    database: 'your_db_name',
-    password: 'your_db_password',
+    database: 'db_dealerchip',
+    password: 'root',
     port: 5432,
 });
 
